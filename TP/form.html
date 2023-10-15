@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <!--<link rel="stylesheet" href="style\style.css"> -->
+    <script src="https://kit.fontawesome.com/221d33e826.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header style="background-color: orange;">
+         <nav>
+            <a style="background-color: gray;" href="index.html">Home</a>
+            <a style="background-color: gray;" href="about.html">Acerca de</a>
+            <a style="background-color: gray;" href="contact.html">Contacto</a>
+            <a style="background-color: gray;" href="form.html">Regístrese</a>
+            <a style="background-color: gray;" href="location.html">Sucursales</a>
+         </nav>
+         <h1 style="text-align: center;">La manos que hacen</h1>
+        
+    </header>
+    <menu>
+        <h2>Formulario de registro</h2>
+        <form action="show_data.html" target="_blank">
+            <label for="firstname">Nombre: </label> <input type="text" name="firstname" placeholder="Ingrese su nombre aquí..."> <br><br>
+            <label for="lastname">Apellido:</label> <input type="text" name="lastname" placeholder="Ingrese su apellido aquí..."> <br><br>
+            <label for="street">Dirección:</label> <input type="text" name="addres" placeholder="Ingrese su dirección aquí..."><br><br>
+            <label for="city">Ciudad:</label> <input type="text" name="city" value="C.A.B.A."> <br><br>
+            <label for="zipcode">Código postal:</label> <input type="text" name="zipcode" placeholder="Ingrese su código postal aquí..."><br><br>
+            <label for="birthdate">Fecha de nacimiento (dd/mm/yyyy):</label> <input type="date" name="birthdate"><br><br>
+            <p>Género
+                <input type="radio" name="gender" value="hombre" checked>Hombre
+                <input type="radio" name="gender" value="mujer">Mujer
+                <input type="radio" name="gender" value="Otro">Otro
+            </p>
+            <p>
+                Estudios
+                <input type="checkbox" name="opcion" value="1">Primario
+                <input type="checkbox" name="opcion" value="2">Secundario
+                <input type="checkbox" name="opcion" value="3">Terciario
+                <input type="checkbox" name="opcion" value="4">Universitario
+                <input type="checkbox" name="opcion" value="5">Otro
+            </p>
+            <input type="submit" value="Enviar">
+        </form>
+        <p>Si usted hace click en el boton "Enviar", la información será enviada a la página "show_data.html".</p>
+
+    </menu>
+
+
+
+    <footer style="background-color: orange;text-align: center; ">
+        <a href="https://twitter.com/?lang=en" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com" target="blank" > <i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+        <br>
+        <p>Derechos reservados @2023</p>
+        <br>
+    </footer>
+    
+</body>
+</html>
