@@ -1,9 +1,10 @@
 
 .html{
-    font-family: Arial, Helvetica, sans-serif;
-     /* Mas suave al scrollear (fede)*/
-    scroll-behavior:smooth;
+    font-family: Helvetica, sans-serif;
     font-size: 16px;
+    /* Mas suave al scrollear (fede)*/
+    scroll-behavior:smooth;
+    width: 100%;
 }
 * {
     margin: 0;
@@ -12,45 +13,64 @@
 
 }
 
+/*Lo desactivo porque el carrusel traspasa el header que queda fijo
+.cuerpo {
+    margin: 0;
+	padding: 0;
+    padding-top: 200px;
+  
+}
+*/ 
 #main-content{
-    padding-left: 0%;
-    margin-left: 0%;
+    position:fixed;
+            width: 100%;
+            left: 0;
+            top: 0;
+  
     
     }
     .header{
         background-color: rgb(13, 126, 101);
         padding: 10px;
+       
         } 
-        .logo{          
-        /*Agregue Centrado de texto (fede)*/
+        .logo{    
+       /*Agregue Centrado de texto (fede)*/
         text-align: center;
         font-style: italic;
         font-weight: bold;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         margin-bottom: 20px;
+        text-decoration: none;
+        color:white;
+
         }
-        .list-navbar{                        
+        #navbar {
+            position:fixed;
+            width: 100%;
+            left: 0;
+            top: 0;
+        }
+        .list-navbar{                  
             list-style-type: none;
             width: 100%;
             text-align: center;
-        
             }
             .list-navbar>li{
                 display: inline;
-                 /*Le puse separacion entre las cajas (fede)*/
+                /*Le puse separacion entre las cajas (fede)*/
                 margin-right: 50px;                
                
                 }
-            /*Aca faltaba agregar un punto a la clase, por eso no se editaba*/
                 .list-navbar>li>a{
-                      /*Le quite el seleccionado azul a las opciones del navbar */    
+                    /*Le quite el seleccionado azul a las opciones del navbar */    
                     text-decoration: none;
                     text-align: right; 
                     color:white;  
                     padding:10px;
-                    transition: 1s;                                  
+                    transition: 1s;                               
                 }
-  /*Agrego pseudoclasese para darle más animación* (fede)*/
+                /*Agrego pseudoclasese para darle más animación* (fede)*/
                 .list-navbar>li>a:hover{
                     color: tomato;
                     background-color: white;
@@ -59,17 +79,59 @@
                         color: tomato;
                         background-color: rgb(114, 40, 8);
                     }
+                     /*Agrego la parte de flexbox (fede)*/   
+                     .flex-container {
+                        margin-top: 20px;
+                        display:flex;
+                        flex-direction: row;
+                        /*Permite o no el desbordamiento*/
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                    
+                    }
+                        .flex-item{
+                            padding:1%;
+                            background-color: rgb(134, 145, 34);
+                            margin-bottom: 10px;
+                            width: 45%;
+                            border-radius: 20px;
+                            font-size: 20px;
+                        }
+                    #cajas1 {
+                        margin-left: auto;
+                        margin-right: auto;
+                        width:80%;
+                    }
+                   
+            .mainmenu {
+                margin-left: auto;
+            }        
 #novedades{
     background-color: rgb(13, 126, 101);
     padding: 10px;
     margin-top: 20px;
+   
     }
     .novedades{
         background-color: beige;
     }
+.nosotros {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nosotros_flex {
+    margin:auto;
+
+}
 
 
-
+.flex-item:hover{
+    transform: scale(1.1,1.1);
+}
 
 .aside {
     margin-top: 5px; 
@@ -84,13 +146,12 @@
     margin-top: 5px;
     border-radius: 5%;
 }
-/*Agregue un icono de herramienta que aparece al principio de cada novedad*/
+
+/* menu */
 .novedades h2::before{
     content: "⚒️";
     /* content: "f1ea"; */
 }
-
-/* menu */
 
 #menu ul {
     list-style:none;
@@ -103,7 +164,14 @@
    #menu ul li {
     background-color:#2e518b;
    }
+ .contacto {
+    padding-top:200px;
+ }  
+.sucursal {
+    padding-top:  150px;
+    padding-left: 10%;
 
+}
 
 .list-footer{
     
