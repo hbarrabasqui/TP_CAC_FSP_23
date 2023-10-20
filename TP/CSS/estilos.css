@@ -192,5 +192,72 @@
                                    
                 }
 
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* estilos para herramientas, cerrajería, bulonería */
+/* El estilo de .top es para que la cuadrícula no quede debajo del header */
+.top {
+    max-width: 100%;
+    padding-top: 130px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+ /* Defino cuadrícula de 3 columnas */
+ .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
+    grid-gap: 20px; /* Espacio entre las celdas */
+    padding: 20px; /* me alejo de los laterales */
+    background-color: rgb(6, 90, 6); /*color igual que el header */
+    border-radius: 5px;
+}
+
+/* Estilos para los elementos dentro de la cuadrícula */
+.articulo {
+    border: 1px solid #ddd;
+    padding: 20px;  
+    transition: 0.3s;
+    background-color: rgb(13, 126, 101);
+    border-radius: 5px;
+    
+    }
+    .articulo:hover{
+       scale: 1.05;
+    }
+
+.articulo img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* Estilos para encabezados y otros elementos */
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 10px;
+}
+
+
+/* dispositivos pequeños */
+@media screen and (min-width:0px) and (max-width:425px){
+.container{
+grid-template-columns: 1fr;
+}
+}
+/* tablets */
+@media screen and (min-width:426px) and (max-width:768px) {
+.container{
+grid-template-columns: 1fr 1fr;
+}
+}
+
+/* dispositivos laptops o mas grandes */
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+.container{
+grid-template-columns: 1fr 1fr 1fr;
+}
+}
 
    
