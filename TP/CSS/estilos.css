@@ -1,7 +1,7 @@
 
 .html{
     font-family: Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 62.5%;
     /* Mas suave al scrollear (fede)*/
     scroll-behavior:smooth;
     width: 100%;
@@ -11,6 +11,9 @@
     padding: 0;
     box-sizing: border-box;
 
+}
+.body {
+    font-size: 16px;
 }
 
 /*Lo desactivo porque el carrusel traspasa el header que queda fijo
@@ -41,6 +44,7 @@
         text-align: center;
         font-style: italic;
         font-weight: bold;
+        font-size: 3.8rem;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         margin-bottom: 0px;
         text-decoration: none;
@@ -181,6 +185,7 @@ a {
    }
  .contacto {
     padding-top:200px;
+    padding-left: 2rem;
  }  
 .sucursal {
     padding-top:  150px;
@@ -277,12 +282,12 @@ a {
 
 /* Estilos para encabezados y otros elementos */
 h2 {
-    font-size: 20px;
+    font-size: 2rem;
     margin-bottom: 10px;
 }
 
 p {
-    font-size: 10px;
+    font-size: 1rem;
 }
 
 
