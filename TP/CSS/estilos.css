@@ -26,6 +26,7 @@
             width: 100%;
             left: 0;
             top: 0;
+            z-index: 1;
   
     
     }
@@ -120,11 +121,13 @@
     padding-right: 10%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
     
+}img{
+    border-radius: 10px;
 }
 .nosotros_flex {
-    margin:auto;
+    margin:0 auto;
 
 }
 
@@ -207,7 +210,7 @@
     grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
     grid-gap: 20px; /* Espacio entre las celdas */
     padding: 20px; /* me alejo de los laterales */
-    background-color: rgb(6, 90, 6); /*color igual que el header */
+    background-color: rgb(6, 90, 6); /*color distinto al header */
     border-radius: 5px;
 }
 
@@ -260,4 +263,45 @@ grid-template-columns: 1fr 1fr 1fr;
 }
 }
 
+/********************************/
+/* Estilos para usuarios random */
+/********************************/
+.about{
+    background-color: aquamarine;
+    border-radius: 10px;
+}h2{
+    text-align: center;
+}
+.random{
+    
+    width: 100%;
+    text-align: center;
+    margin: 0 ;
+}
+.random>img{
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.random>p{
+    color: blue;
+    font-size: 16px;
+}span{
+    color: black;
+}
+
+.datos p{
+color: blue;
+
+}
+.datos p span{
+    color: black;
+}
+.boton{
+    text-align: center;
+    padding-bottom: 10px;
+}button{    
+    padding: 5px;
+    border-radius: 10px;
+}
    
