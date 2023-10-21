@@ -316,3 +316,48 @@ color: blue;
     border-radius: 10px;
 }
    
+/*ESTILOS PARA EL FORMULARIO */
+
+.formulario {
+    backgorund-color: var(--blanco);
+    margin: 2rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.campo__label {
+    flex: 0 0 9rem;
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.campo__field {
+    flex: 1;
+    
+    
+}
+
+.campo__field--textarea {
+    height: 20rem;
+}
+
+.error {
+    background-color: rgb(185, 0, 0);
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.correcto {
+    background-color: rgb(74, 185, 0);
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    text-transform: uppercase;
+}
