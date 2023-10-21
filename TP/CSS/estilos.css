@@ -80,6 +80,7 @@
                     color: tomato;
                     background-color: white;
                     border-radius: 10px;
+                    transition: 1s;
                     }
                     .list-navbar>li>a:active{
                         color: tomato;
@@ -103,7 +104,8 @@
                             border-radius: 20px;
                             font-size: 20px;
                         }
-                    #cajas1 {
+                       
+                        #cajas1 {
                         margin-left: auto;
                         margin-right: auto;
                         width:80%;
@@ -140,6 +142,7 @@
 
 .flex-item:hover{
     transform: scale(1.1,1.1);
+    border: 2px grey solid;
 }
 
 .aside {
@@ -148,7 +151,10 @@
     text-align: center;
 } 
 
-
+a {
+    text-decoration: none;
+    color:inherit;
+}
 
 
 .carousel-inner {
@@ -205,8 +211,34 @@
                     color: black; 
                                    
                 }
-
-/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+  /* Estilo para la seccion 2 del index */
+  /*+++++++++++++++++++++++++++++++++++++++++++*/
+  
+  #seccion2 {
+    position:relative;
+    display: flex;
+     }  
+   .seccion2menu {
+    position: absolute;
+    text-align: center;
+    margin-left: 40%;
+    box-sizing: border-box;
+    padding-top: 370px;
+    font-weight: 700px;
+    text-decoration: none;
+    font-size: large;
+   }  
+.masinfo {
+    background-color: #c01c24;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    color:white;
+}
+.masinfo:hover {
+    background-color: #96161c;
+}
 /* estilos para herramientas, cerrajería, bulonería */
 /* El estilo de .top es para que la cuadrícula no quede debajo del header */
 .top {
