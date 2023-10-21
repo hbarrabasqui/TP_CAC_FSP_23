@@ -1,7 +1,7 @@
 
 .html{
     font-family: Helvetica, sans-serif;
-    font-size: 62.5%;
+    font-size: 40%;
     /* Mas suave al scrollear (fede)*/
     scroll-behavior:smooth;
     width: 100%;
@@ -44,7 +44,7 @@
         text-align: center;
         font-style: italic;
         font-weight: bold;
-        font-size: 3.8rem;
+        font-size: 2rem;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         margin-bottom: 0px;
         text-decoration: none;
@@ -145,8 +145,8 @@
 
 
 .flex-item:hover{
-    transform: scale(1.1,1.1);
     border: 2px grey solid;
+    background-color: yellowgreen;
 }
 
 .aside {
