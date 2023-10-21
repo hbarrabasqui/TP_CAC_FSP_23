@@ -24,8 +24,8 @@ formulario.addEventListener('submit', function(evento) {
         mostrarAlerta('Todos los campos son obligatorios', true);
         return;
     }
-    validarNombre('nombre');
-    validarEmail('email');
+    validarNombre(nombre);
+    validarEmail(email);
   
 
     //alerta de enviado con exito:
@@ -91,23 +91,3 @@ function validarNombre(nombre) {
     }
 }
 
-/*
-function validarFormulario() {
-    var nombre  = document.getElementById('nombre').value.trim();
-    var email   = document.getElementById('email').value.trim();
-    var mensaje = document.getElementById('mensaje').value.trim();
-
-    
-    if(nombre === '' || email === ''|| mensaje === ''  ) {
-        mostrarAlerta('Todos los campos son obligatorios', true);
-        return;
-    }
-
-    //alerta de enviado con exito:
-
-    mostrarAlerta('Mensaje enviado correctamente');
-
-    
-    }
-
-}*/
