@@ -32,16 +32,17 @@
     }
     .header{
         background-color: rgb(13, 126, 101);
-        padding: 10px;
-       
-        } 
+        padding: 0px; 
+                           
+        }
+    
         .logo{    
        /*Agregue Centrado de texto (fede)*/
         text-align: center;
         font-style: italic;
         font-weight: bold;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
         text-decoration: none;
         color:white;
 
@@ -51,11 +52,14 @@
             width: 100%;
             left: 0;
             top: 0;
+            padding: 0;
+            
         }
         .list-navbar{                  
             list-style-type: none;
             width: 100%;
             text-align: center;
+            margin: 0;
             }
             .list-navbar>li{
                 display: inline;
@@ -68,13 +72,14 @@
                     text-decoration: none;
                     text-align: right; 
                     color:white;  
-                    padding:10px;
-                    transition: 1s;                               
+                    padding:5px;
+                    padding-top: 0px;
                 }
                 /*Agrego pseudoclasese para darle más animación* (fede)*/
                 .list-navbar>li>a:hover{
                     color: tomato;
                     background-color: white;
+                    border-radius: 10px;
                     }
                     .list-navbar>li>a:active{
                         color: tomato;
@@ -105,6 +110,7 @@
                     }
                    
             .mainmenu {
+                padding-top: 70px;
                 margin-left: auto;
             }        
 #novedades{
@@ -175,7 +181,12 @@
     padding-left: 10%;
 
 }
-
+.redes>a{
+    color: black;
+    padding: 10px;
+}a:hover{
+    scale: 2;
+}
 .list-footer{
     
             width: 100%;
@@ -200,7 +211,7 @@
 /* El estilo de .top es para que la cuadrícula no quede debajo del header */
 .top {
     max-width: 100%;
-    padding-top: 130px;
+    padding-top: 90px;
     padding-bottom: 10px;
     margin: 0 auto;
 }
