@@ -19,110 +19,8 @@
     <link rel="stylesheet" href="CSS/estilos.css">
     <!-- Animate.CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-     <style>
-         @media screen and (min-width:0px) and (max-width:672px){
-           
-            .flex-container{
-                flex-direction: column;
-
-            }
-            .flex-item {
-                width: 99%;
-            }
-           img {
-            max-width: 100%;
-            height: auto;
-           }
-           .seccion2menu {
-                 position: absolute;
-                  text-align: center;
-                 margin-left: 17%;
-                 box-sizing: border-box;
-                 padding-top: 90px;
-                 font-weight: 700px;
-                 text-decoration: none;
-                 font-size: 10px;
-                }  
-            .list-footer{
-                
-                width: 100%;
-                text-align: center;
-                
-            
-                }
-                .list-navbar>li{
-                display: inline;
-                /*Le puse separacion entre las cajas (fede)*/
-                margin-right: 10px;                
-               
-                }
-
-        }
-        @media screen and (min-width:673px) and (max-width:990px){
-           
-            .flex-container{
-                flex-direction: column;
-            }    
-            .flex-item {
-                width:90%;
-                justify-content: center;
-
-           
-                
-            }   
-            img {
-            max-width: 100%;
-            height: auto;
-           } 
-           .seccion2menu {
-                 position: absolute;
-                  text-align: center;
-                 margin-left: 25%;
-                 box-sizing: border-box;
-                 padding-top: 190px;
-                 font-weight: 700px;
-                 text-decoration: none;
-                 font-size: 10px;
-            }  
-            .list-footer{
-                
-                width: 100%;
-                text-align: center;
-                
-            
-                }
-            }    
-                @media screen and (min-width: 769px) and (max-width: 1440px) {
-                    img {
-            max-width: 100%;
-            height: auto;
-           }
-           .seccion2menu {
-                 position: absolute;
-                  text-align: center;
-                 margin-left: 33%;
-                 box-sizing: border-box;
-                 padding-top: 300px;
-                 font-weight: 700px;
-                 text-decoration: none;
-                 font-size: 10px;
-                } 
-                .list-footer{
-                
-                width: 100%;
-                text-align: center;
-                
-            
-                }     
-              
-
-                }           
-                            
-                            
-        
-    </style>
-    
-   
+     
+ 
    
 </head>
 
@@ -160,12 +58,13 @@
             <div class="col-md-4 col-sm-4">
                 <div class="aside">
                     <div><iframe
-                            style="width:290px;height: 380px;border-radius:10px;box-shadow:2px 4px 4px rgb(0 0 0 / 25%);display:flex;justify-content:center;border:1px solid #bcbcbc; margin-left: 140px; margin-top: 34px;"
+                            style="width:310px;height: 315px;border-radius:10px;box-shadow:2px 4px 4px rgb(0 0 0 / 25%);display:flex;justify-content:center;border:1px solid #bcbcbc; margin-left: 50px; margin-top: 0px;"
                             src="https://dolarhoy.com/i/cotizaciones/dolar-blue" frameborder="0"></iframe></div>
                 </div>
             </div>
             <!-- carousel-->
-            <div class="col-md-4 col-sm-8">
+           
+            <div class="col-md-4 col-sm-8 center">
                 <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
                     <!-- Indicators/dots -->
@@ -209,16 +108,20 @@
                     </button>
                 </div>
                 <!--
-                  <div class="container-fluid mt-3">
+                <div class="container-fluid mt-3">
                     <h3>Carousel Example</h3>
                     <p>The following example shows how to create a basic carousel with indicators and controls.</p>
-                  </div> -->
+                </div> -->
             </div>
+                
+            
             <!-- aside derecho del carousel-->
             <div class="col-md-4 col-sm-12">
                 <div class="aside">
                     <div>
-                        <iframe src="https://api.wo-cloud.com/content/widget/?geoObjectKey=8684233&language=es&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit" name="CW2" scrolling="no" width="290" height="380" frameborder="0" style="border: 1px solid #10658E;border-radius: 4px; margin-top:30px;></iframe>
+                        <iframe 
+                        style="width:310px;height: 315px;border-radius:10px;box-shadow:2px 4px 4px rgb(0 0 0 / 25%);display:flex;justify-content:center;border:1px solid #bcbcbc; margin-left: 50px; margin-top: 0px;"
+                         src="https://api.wo-cloud.com/content/widget/?geoObjectKey=8684233&language=es&region=US&timeFormat=HH:mm&windUnit=mph&systemOfMeasurement=imperial&temperatureUnit=fahrenheit"  frameborder="0"> </iframe>
                     </div>
                 </div>
             </div>
@@ -289,7 +192,7 @@
     </section>
     <!-- Seccion dos del index, coloco tambien el estilo aca -->
     <section id="seccion2">
-        <img src="images/seccion2.jpg" width="1900px" height="1000x">
+        <img src="images/seccion2.jpg" width="1900px" height="1000px">
         <div class="seccion2menu">
             <h3 style="color: white; text-align: center;">Herramientas de alta calidad</h3>
             <br>

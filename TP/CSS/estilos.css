@@ -16,14 +16,7 @@
     font-size: 16px;
 }
 
-/*Lo desactivo porque el carrusel traspasa el header que queda fijo
-.cuerpo {
-    margin: 0;
-	padding: 0;
-    padding-top: 200px;
-  
-}
-*/ 
+
 #main-content{
     position:fixed;
             width: 100%;
@@ -116,9 +109,9 @@
                     }
                    
             .mainmenu {
-                padding-top: 70px;
+                padding-top: 90px;
                 margin-left: auto;
-            }        
+            }       
 #novedades{
     background-color: rgb(13, 126, 101);
     padding: 10px;
@@ -148,12 +141,17 @@
     border: 2px grey solid;
     background-color: yellowgreen;
 }
+/* Inicio estilo para la parte que contiene el carousel */
+.center{
+    padding-top: 0px;
+
+}/* Fin estilo para la parte que contiene el carousel */
 
 .aside {
     margin-top: 5px; 
     border-radius: 5%;
     text-align: center;
-} 
+}
 
 a {
     text-decoration: none;
@@ -184,14 +182,15 @@ a {
     background-color:#2e518b;
    }
  .contacto {
-    padding-top:200px;
+    padding-top:100px;
     padding-left: 2rem;
  }  
 .sucursal {
-    padding-top:  150px;
-    padding-left: 10%;
+    padding-top:  100px;
+    padding-left: 5%;
 
 }
+
 .redes>a{
     color: black;
     padding: 10px;
@@ -223,6 +222,11 @@ a {
     position:relative;
     display: flex;
      }  
+     #seccion2>img{
+        width: 98%;
+        margin-left: 1%;
+        padding-bottom: 5px;
+     }
    .seccion2menu {
     position: absolute;
     text-align: center;
@@ -315,7 +319,7 @@ grid-template-columns: 1fr 1fr 1fr;
 /* Estilos para usuarios random */
 /********************************/
 .about{
-    background-color: aquamarine;
+    background-color: rgb(201, 196, 214);
     border-radius: 10px;
 }h2{
     text-align: center;
@@ -356,8 +360,8 @@ color: blue;
 /*ESTILOS PARA EL FORMULARIO */
 
 .formulario {
-    backgorund-color: var(--blanco);
-    margin: 2rem auto 0 auto;
+    background-color: rgb(201, 196, 214);
+    margin: 2rem auto 1rem auto;
     width: 95%;
     padding: 5rem;
 }
