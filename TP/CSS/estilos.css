@@ -352,9 +352,14 @@ color: blue;
 .boton{
     text-align: center;
     padding-bottom: 10px;
-}button{    
+    
+}button{ 
+    width: 25%;   
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 5px;
+    border:1px solid #000;
+    background-color: #000;
+    color:#fff;
 }
    
 /*ESTILOS PARA EL FORMULARIO */
